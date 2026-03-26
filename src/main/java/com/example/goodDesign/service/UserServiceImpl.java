@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
 		if (repository.existsByName(user.getName())) {
 			throw new IllegalArgumentException("User already exists");
 		}
-
+        System.out.println("Boom");
 		return repository.save(user);
 	}
 
