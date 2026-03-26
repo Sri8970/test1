@@ -1,0 +1,13 @@
+package com.example.goodDesign;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class GoodDesignApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
